@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Home Page/Payments/css/payment-method.css">
+    <title>Payment Methods</title>
+</head>
+<body>
+    
+<div class="topnav">
+    <div class="name">
+        <h2>Oshine Store</h2>
+    </div>
+</div>
+
+<div class="back-to-cart">
+    <a href="/Home Page/Desktop/Cart/cart.html">Continue To Cart</a>
+</div>
+
+<br>
+
+<div class="c-process">
+    <span class="active">Payment Method</span> <h2>></h2>
+    <span>Pay</span> <h2>></h2>
+    <span>Order Complete</span> 
+</div>
+
+<br>
+
+<div class="payment-section">
+    <div class="payment-panel">
+        <div class="payment-method-panel">
+            <header>
+                <div class="payment-method-title">
+                    <h2>How would you like to pay?</h2>
+                </div>
+                <div class="payment-method-container">
+                    <div class="payment-select-container">
+                        <div class="select hover">
+                            <input type="radio" class="payment-radio" name="Payment_range">
+                            <label for="payment_PaymentMethod_credit-card" class="payment-select">Credit & Debit Card</label>
+                            <a href="/Home Page/Payments/Add Card/add-card.html">
+                                <button class="select-btn-add" onclick="hover()">+
+                                    <i class="fa fa-plus-square-o" style="font-size: 30px; text-align:center;"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="payment-select-container">
+                        <div class="select">
+                            <input type="radio" class="payment-radio" name="Payment_range">
+                            <label for="payment_PaymentMethod_credit-card" class="payment-select">PayPal</label>
+                        </div>
+                    </div>
+
+                    <div class="payment-select-container">
+                        <div class="select">
+                            <input type="radio" class="payment-radio" name="Payment_range">
+                            <label for="payment_PaymentMethod_credit-card" class="payment-select">EFT with Ozow</label>
+                        </div>
+                    </div>
+
+                    <div class="payment-select-container">
+                        <div class="select">
+                            <input type="radio" class="payment-radio" name="Payment_range">
+                            <label for="payment_PaymentMethod_credit-card" class="payment-select">Spend eBucks</label>
+                        </div>
+                    </div>
+                    <div class="payment-select-container">
+                        <div class="select">
+                            <input type="radio" class="payment-radio" name="Payment_range">
+                            <label for="payment_PaymentMethod_credit-card" class="payment-select">NSFAS Wallet</label>
+                        </div>
+                    </div>
+
+                    <div class="payment-select-container">
+                        <div class="select">
+                            <input type="radio" class="payment-radio" name="Payment_range">
+                            <label for="payment_PaymentMethod_credit-card" class="payment-select">EFT with Ozow</label>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    
+    <div class="payment-summary">
+        <div class="payment-summary-items">
+            <h2>Order Summary</h2>
+            <p>1 item</p>
+            <p>R2 095.009</p>
+
+            <button type="submit" class="btn-checkout">Checkout</button>
+        </div>
+    </div>
+</div>
+
+<script src="/Home Page/Payments/js/payment.js"></script>
+
+</body>
+</html>

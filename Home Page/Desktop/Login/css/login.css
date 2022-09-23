@@ -1,0 +1,170 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topnav {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    box-shadow: -1px 2px 17px;
+}
+
+.topnav h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8%;
+    margin-bottom: 25px;
+    color: rgb(34, 33, 33);
+}
+
+.fa-shopping-cart {
+    color: black;
+    float: right;
+}
+
+.name {
+    width: 20%;
+}
+
+.btn-home {
+    background: #0b79bf;
+    height: 1rem;
+    padding: 20px;
+}
+
+.btn-home .back {
+    padding: 3px 10px;
+    background: #494949;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.desktop {
+    padding-left: 400px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-links a {
+    border-right: 1px solid black;
+    padding: 3px 15px;
+    font-size: .82rem;
+    color: black;
+}
+.container-desktop {
+    padding-left: 298px;
+    width: 50%;
+}
+
+.btn-desktop {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-desktop:hover {
+    opacity: 1;
+    background-color: #777777;
+}
+
+.btn-desktop a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cart {
+    padding: 13px;
+    margin-left: 2rem;
+}
+
+.btn-cart {
+    background-color: #0b79bf;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.form {
+    background: 0 0;
+    width: 100%;
+}
+
+.form-container {
+    background: 0 0;
+    margin: 20px auto 0;
+    float: none;
+    width: 100%;
+}
+
+.form-sign-in {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    box-sizing: border-box;
+    float: none;
+    padding: 2.5rem;
+}
+
+.form-sign-in h3 {
+    font-size: .98rem;
+    color: #333333;
+}
+
+#loginForm label {
+    display: inline-block;
+    font-size: .85rem;
+}
+
+#loginForm input {
+    background: #fff;
+    border: 1px solid #dadada;
+    border-radius: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 24px;
+    line-height: 24px;
+    margin: 6px 0 10px;
+    padding: 17px 10px;
+    width: 100%;
+}
+
+.btn-secured {
+    background: #0b79bf;
+    color: #fff;
+    padding: 12px 12px;
+    width: 190px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 140px;
+}
+
+#loginForm a {
+    float: right;
+    font-size: .85rem;
+    color: #0b79bf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Home Page/Desktop/Register/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Discovery</title>
+</head>
+<body>
+
+  <div class="topnav">
+    
+    <div class="name">
+      <h2>Oshine Store</h2>
+    </div>
+    <div class="desktop">
+      <div class="desktop-links">
+        <a href="/Home Page/Desktop/Login/login.html">Login</a>
+        <a href="/Home Page/Desktop/Register/register.html">Register</a>
+        <a href="javascript:void(0)">My Accounts</a>
+      </div>
+      <div class="cart">
+        <a href="/Home Page/Desktop/Cart/cart.html">
+          <button class="btn-cart">
+            <i class="fa fa-shopping-cart" style="font-size: 25px; color: #fff;"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+    <br>
+  </div>
+  
+  <div class="btn-home">
+    <a href="/Home Page/index.html">
+      <button class="back">Back-to-shopping</button>
+    </a>
+  </div>
+    <br>
+    <br>
+
+  <div class="form">
+    <div class="form-container">
+        <div class="form-register">
+            <h3>Register</h3>
+            <br>
+            <form method="post" id="registerForm" action="/Home Page/Desktop/Register/Check Email/check-email.html" validate>
+                <label for="email">Email address</label>
+                <input type="email" name="email" placeholder="oshinestore@gmail.com" required>
+                <br>
+                <br>
+
+                <label for="username">Username</label>
+                <input type="username" name="username" required>
+                <br>
+
+                <label for="cellphone">Cellphone No.</label>
+                <input type="number" id="number" name="cellphone" placeholder="071 234 5678" required>
+                <button id="demo">Check</button>
+                <div class="result"></div>
+                <br>
+                <br>
+
+                <label for="password">Create Password</label>
+                <div class="show-password">
+                  <input type="password"  name="password" id="myInput">
+                </div>
+                <!-- <input type="checkbox" class="show-password" onclick="myFunction()">Show Password   -->
+                <br>
+
+                <label for="password">Confirm Password</label>
+                <input type="password" name="password" id="myInput">
+                <br>
+                <a href="/Home Page/Desktop/Register/Check Email/check-email.html">
+                  <button class="btn-secured">Register</button>
+                </a>
+            </form>
+        </div>
+    </div>
+  </div>
+
+  <script src="/Home Page/Desktop/Register/js/script.js"></script>
+  
+</body>
+</html>
