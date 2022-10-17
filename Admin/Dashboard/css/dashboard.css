@@ -1,53 +1,284 @@
 body {
     margin: 0;
-    background-color: #ddd;
-    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    background-color: #ffff;
+    /* font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif; */
+    font-family: "Lato", sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
-* {box-sizing: border-box;}
+h1, h2, h3, h4, h4, h5, h6 {
+    margin: 0;
+}
+
+* {box-sizing: border-box}
+
+.topnav {
+    width: 100%;
+    background: #0a2342;
+    top: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topnav h3 {
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0b79bf;
+    font-weight: 500;
+    margin: 0;
+}
+
+.tab .logout {
+    padding: 4px 6px;
+    float: right;
+    right: 1px;
+    padding: 10px 12px;
+    
+}
 
 .tab {
-    float: left;
-    border: 1px solid #ccc;
-    background: #f1f1f1;
-    width: 20%;
-    height: 600px;
+  float: left;
+  border: 1px solid #ccc;
+  width: 20%;
+  height: 1050px;
+  padding-top: 30px;
+  position: sticky;
+}
+ 
+.admin-details {
+    padding: 10px;
+}
+
+.admin-details .admin-name {
+    font-weight: 700;
+}
+
+.admin-details .admin-email {
+    font-size: 12px;
 }
 
 .tab button {
-    display: block;
-    background: inherit;
-    color: black;
-    padding: 22px 16px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 300ms;
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 10px 16px;
+  width: 90%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+  margin: 5%;
+  border-radius: 4px;
 }
 
 .tab button:hover {
-    background: #ddd;
+  background-color: #bee9f7;
 }
 
 .tab button.active {
-    background-color: #ccc;
+  background-color: #6398a8;
 }
 
 .tabcontent {
-    float: left;
-    padding: 0 12px;
-    border: 1px solid #ccc;
-    width: 77%;
-    border-left: none;
-    height: 600px;
+    background: #ddd;
+  float: left;
+  /* padding: 0px 12px; */
+  border: 1px solid #ccc;
+  width: 80%;
+  border-left: none;
+  height: 1050px;
+  border-radius: 0 10px 10px 0;
 }
 
+.breadcrumb {
+    display: flex;
+}
 
+.files {
+    padding: 14px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 2px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #0b79bf;
+}
+
+.shared {
+    padding: 14px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.requests {
+    padding: 14px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.tab-items {
+    align-items: center;
+}
+
+.tab-left {
+    width: 40%;
+}
+
+.tab-left h2 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.tab-right {
+    float: right;
+    padding-right: 240px;
+}
+
+.tab-right .edit {
+    padding: 6px 10px;
+    border: none;
+    background: #0b79bf;
+    color: #ffff;
+
+}
+
+.tab-container {
+    background: #fff;
+    padding: 12px 12px 0 12px;
+}
+
+.tab-card-container {
+    display: flex;
+    padding-left: 12px;
+}
+
+.tab-cards {
+    position: relative;
+    padding: 18px 25px;
+    background: #fff;
+    width: 250px;
+    height: 150px;
+    /* padding: 12px; */
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+.tab-cards h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.tab-cards h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #0b79bf;
+    border-bottom: 1px solid #e9eaef;
+    margin: 0;
+}
+
+.tab-cards h6 {
+    font-size: 12px;
+    color:  #d1d2d8;
+    padding: 13px 0;
+}
+
+.second-row {
+    display: flex;
+    margin-left: auto;
+}
+
+.second-row .revenue {
+    background: #ffff;
+    margin-left: 25px;
+    width: 65%;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 17px 25px;
+}
+
+.revenue .revenue-name {
+    font-size: 20px;
+}
+
+.revenue h4 {
+    font-size: 13px;
+    color: #333;
+    font-weight: 300;
+}
+
+.revenue table {
+    padding: 14px;
+}
+
+.revenue td {
+    padding-left: 25px;
+    padding-right: 62px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+    background: #fff;
+    font-size: 13px;
+}
+
+.order-statistics {
+    background: #ffff;
+    margin-left: auto;
+    width: 25%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 17px 25px;
+}
+
+.order-statistics .order-name {
+    font-size: 20px;
+}
+
+.order-statistics h4 {
+    font-size: 13px;
+    color: #333;
+    font-weight: 300;
+}
+
+.table-customers {
+    padding-top: 50px;
+    padding-left: 14px;
+}
+
+.table-customers th {
+    padding-left: 30px;
+    padding-right: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 13px;
+    background: #ccc;
+} 
+
+.table-customers td {
+    padding-left: 34px;
+    padding-right: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background: #fff;
+    font-size: 13px;
+}
 
 
 

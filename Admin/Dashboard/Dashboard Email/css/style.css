@@ -1,0 +1,187 @@
+.email-container {
+    margin: 0;
+    background: #ffff;
+    padding: 20px;
+    display: flex;
+    height: 690px;
+}
+
+.email-container-links {
+    width: 25%;
+    border-right: 1px solid #333;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.email-container-content {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.tab-name h3 {
+    padding-left: 16px;
+    font-weight: 500;
+}
+
+.btn-email {
+    padding: 16px 22px;
+    border: none;
+    margin-bottom: 10px;
+    width: 95%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btn-email .email-badge {
+    border-radius: 50%;
+    background: #097ba7;
+    color: #ffff;
+    margin-left: 11rem;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.active {
+    background: #b4b4b4;
+}
+
+.btn-email:hover {
+    background: #b4b4b4;
+}
+
+ .email-detail {
+    background: #ddd;
+    /* border: 1px solid #333; */
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.email-detail:hover {
+    background: #b4b4b4;
+}
+
+.email-detail h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: black;
+}
+
+.email-detail p {
+    font-size: 12px;
+}
+
+.email-detail .recepient-time span {
+    color: #0a2342;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    margin-left: 47%;
+}
+
+.email-topnav {
+    padding: 0px;
+}
+
+.email-topnav .hr-line {
+    margin: 50px 20px;
+}
+
+.replies {
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.replies .reply {
+    padding: 7px 14px;
+    border: 1px solid #097ba7;
+    background: transparent;   
+    cursor: pointer; 
+    margin-left: 10px;
+}
+
+.reply:hover {
+    background: rgb(245, 243, 243);
+}
+
+.email-header {
+    padding-left: 110px;
+}
+
+.email-header h3, h4, p {
+    margin: 0;
+}
+
+.email-header h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.email-header h4, p {
+    display: flex;
+}
+
+.email-header h4 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.email-header p {
+    color: #0948a7;
+    margin-left: 5px;
+}
+
+.email-body p {
+    font-size: 15px;
+}
+
+/* .email-content .email-back {
+    background: transparent;
+    border-radius: 50%;
+    color: #333;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 8px;
+} */
+
+.email-back h1 {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,33 +5,292 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/Admin/Dashboard/css/dashboard.css">
-  <title>Dashboard</title>
+  <link rel="stylesheet" href="/Admin/Dashboard/Dashboard Email/css/style.css">
+  <title>Wonder Web</title>
 </head>
 <body>
+
+  <div class="topnav">
+    <h3>Wonder Web</h3>
+  </div>
+
   
   <div class="tab">
-    <button class="tablinks" onclick="openCity(event,'London')">London</button>
-    <button class="tablinks" onclick="openCity(event,'Paris')">Paris</button>
-    <button class="tablinks" onclick="openCity(event,'Tokyo')">Toyko</button>
-  </div>
+    <div class="admin-details">
+      <div class="admin-name">Alexcious Miles</div>
+      <div class="admin-email">alexciousmiles@gmail.com</div>
+    </div>
 
-  <div id="London" class="tabcontent">
-    <h3>London</h3>
-    <p>London Is The Capital city of England</p>
-  </div>
+    <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">Dashboard</button>
+    <button class="tablinks" onclick="openTab(event, 'secondTab')">Analytics</button>
+    <button class="tablinks" onclick="openTab(event, 'thirdTab')">Email</button>
+    <button class="tablinks" onclick="openTab(event, 'fourthTab')">Users</button>
 
-  <div id="Paris" class="tabcontent">
-    <h3>Paris</h3>
-    <p>London Is The Capital city of France</p>
-  </div>
-
-  <div id="Tokyo" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo Is The Capital city of Japan</p>
+    <a href="/Admin/Login/login-dashboard.html">
+      <button class="logout">Log Out</button>
+    </a>
   </div>
   
+<div id="firstTab" class="tabcontent">
+    <div class="tab-container">
+      <div class="tab-left">
+        <h2>Dashboard</h2>
+      </div>
+  
+      <div class="tab-right">
+        <button class="edit">Edit</button>
+        <button class="edit">Create</button>
+      </div>
+      
+      <br>
+    <div class="breadcrumb">
+      <button class="files on">All Files</button>
+      <div class="shared">Shared</div>
+      <div class="requests">File Requests</div>
+    </div>
+  </div>
 
+  <br>
+  
+    <div class="tab-card-container">
+      <div class="tab-cards">
+        <h5>Budget</h5>
+        <h2>$62,0076.00</h2>
+        <h6 class="text-muted">32% target reached</h6>
+      </div>
 
+      <div class="tab-cards">
+        <h5>Annual Profit</h5>
+        <h2>$1,958,104.00</h2>
+        <h6 class="text-muted">78% target reached</h6>
+      </div>
+
+      <div class="tab-cards">
+        <h5>Average Income</h5>
+        <h2>$1200.00</h2>
+        <h6 class="text-muted">52% target reached</h6>
+      </div>
+
+      <div class="tab-cards">
+        <h5>Total Revenue</h5>
+        <h2>$1.201M</h2>
+        <h6 class="text-muted">41.5% target reached</h6>
+      </div>
+
+    </div>
+
+    <div class="second-row">
+      <div class="revenue">
+        <div class="revenue-name">Revenue By Province</div>
+        <h4>Sales performance revenue based by province</h4>
+        <table>
+          <tr>
+            <td>Gauteng</td>
+            <td>$1523.02</td>
+            <td>40%</td>
+          </tr>
+  
+          <tr>
+            <td>Cape Town</td>
+            <td>$1523.02</td>
+            <td>40%</td>
+          </tr>
+  
+          <tr>
+            <td>Kempton Park</td>
+            <td>$1523.02</td>
+            <td>40%</td>
+          </tr>
+
+          <tr>
+            <td>Kempton Park</td>
+            <td>$1523.02</td>
+            <td>40%</td>
+          </tr>
+        </table>
+      </div>
+  
+      <div class="order-statistics">
+        <div class="order-name">Order Statistics</div>
+        <h4>Customers 58.52K</h4>
+      </div>
+    </div>
+
+    <div class="table-customers">
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Date</th>
+          <th>Product ID</th>
+          <th>Product Name</th>
+          <th>Price</th>
+        </tr>
+
+        <tr>
+          <td>Maria Anders</td>
+          <td>15 Jun 2022</td>
+          <td>#1000123</td>
+          <td>Puma T-shirt</td>
+          <td>$12.00</td>
+        </tr>
+
+        <tr>
+          <td>Francisco Alexander</td>
+          <td>29 Jul 2022</td>
+          <td>#1000134</td>
+          <td>Blue Yeti Women</td>
+          <td>$27.00</td>
+        </tr>
+
+        <tr>
+          <td>Cole Brighton</td>
+          <td>02 Feb 2022</td>
+          <td>#1000134</td>
+          <td>Butterfly anklelet</td>
+          <td>$2.00</td>
+        </tr>
+
+        <tr>
+          <td>Kristin Watson</td>
+          <td>18 Apr 2022</td>
+          <td>#1000134</td>
+          <td>Yin Yang Necklace</td>
+          <td>$5.90</td>
+        </tr>
+
+        <tr>
+          <td>Robert Webb</td>
+          <td>12 Dec 2022</td>
+          <td>#1000134</td>
+          <td>Blue Yeti Women</td>
+          <td>$30.00</td>
+        </tr>
+        
+        <tr>
+          <td>Erling Fisher</td>
+          <td>12 Dec 2022</td>
+          <td>#1000134</td>
+          <td>Type C Cable Charger</td>
+          <td>$1.90</td>
+        </tr>
+
+        <tr>
+          <td>Mark Doberman</td>
+          <td>12 Dec 2022</td>
+          <td>#1000134</td>
+          <td>Blue Yeti Women</td>
+          <td>$30.00</td>
+        </tr>
+      </table>
+    </div>
+</div>
+  
+<div id="secondTab" class="tabcontent">
+    <h3>Analytics</h3>
+    <p>Cras euismod, urna id blandit maximus, sapien lorem tristique ex, eget maximus nibh tellus in arcu. Suspendisse libero metus, eleifend elementum velit varius, dapibus rutrum ex. Ut tincidunt, felis auctor ornare fermentum, sem quam imperdiet turpis, quis porttitor purus lacus quis quam. Donec erat massa, sodales sit amet mollis pretium, tempor ac ex. Maecenas fermentum tristique venenatis. Vivamus sollicitudin consequat ligula eu facilisis. </p> 
+</div>
+  
+<div id="thirdTab" class="tabcontent">
+    <div class="tab-name">
+      <h3>Email</h3>
+    </div>
+
+    <div class="email-container">
+      <div class="email-container-links">
+        <button class="btn-email">Sent</button> <br>
+        <button class="btn-email active">Inbox
+          <div class="email-badge">8</div>
+        </button> <br>
+        <button class="btn-email">Spam</button> <br>
+        <button class="btn-email">Starred</button> <br>
+        <button class="btn-email">Trash</button> <br>
+
+        <div class="email-chats">
+          <div class="email-name">
+            <h3>Chats</h3>
+          </div>
+
+          <div class="email-detail">
+            <div class="recepient-name">
+              <h3>Franscisco Jones</h3>
+            </div>
+
+            <div class="recepient-message">
+              <p>Hi Emily, Please be informed that the new...</p>
+            </div>
+
+            <div class="recepient-time">
+              <span>13:05 02/22</span>
+            </div>
+          </div>
+          <div class="email-detail">
+            <div class="recepient-name">
+              <h3>Franscisco Jones</h3>
+            </div>
+
+            <div class="recepient-message">
+              <p>Hi Emily, Please be informed that...</p>
+            </div>
+
+            <div class="recepient-time">
+              <span>13:05 02/22</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="email-container-content">
+        <div class="email-content">
+
+          <div class="email-topnav">
+            <div class="replies">
+              <!-- <button class="email-back">&larr;</button> -->
+              <button class="reply">Reply</button>
+              <button class="reply">Reply All</button>
+              <button class="reply">Forward</button>
+            </div>
+
+            <br>
+
+            <div class="email-header">
+
+              <h3>Weekly Update - Week 3  (Feb 19 - Feb 24)</h3>
+              <h4>Cole Alexander <p class="email">itscole91@gmail.com</p></h4>
+            </div>
+            <hr class="hr-line">
+
+            <div class="email-body">
+              <p class="email-greetings">Hi Alexcious,</p>
+              <br>
+              <p>
+                This week has been a great week and the team is right on schedule with the set deadline. The team has made great progress and achievements this week. At the current rate we will be able to deliver the product right on time and meet the quality that is expected of us. Attached are the seminar report held this week by our team and the final product design that needs your approval at the earliest.
+                <br>
+                <br>
+                For the coming week the highest priority is given to the development for http://www.oshinestore.com/ once the design is approved and necessary improvements are made.
+              </p>
+
+              <br>
+              <br>
+
+              <div class="closing">
+                <p>Regards, <br>
+                  Cole Alexander
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="fourthTab" class="tabcontent">
+    <h3>Users</h3>
+    <p></p>
+</div>
+
+  
 
 
 <script src="/Admin/Dashboard/js/script.js"></script>

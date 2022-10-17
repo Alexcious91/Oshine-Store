@@ -145,14 +145,33 @@ a {
     box-sizing: inherit;
     margin: 1.95rem;
     width: 35%;
-    height: 215px;
+    height: 220px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 1px 4px 5px #ddd;
 }
 
+.payment-summary h2 {
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
 .payment-summary-items {
     padding: 14px;
+    display: flex;
+}
+
+.payment-summary-left h3 {
+    font-weight: 500;
+    font-size: 17px;
+    margin: 14px 0;
+}
+
+.payment-summary-right {
+    float: right;
+    text-align: right;
+    width: 52%;
 }
 
 .summary-title {
@@ -164,7 +183,7 @@ a {
     font-weight: 500;
 }
 
-.payment-summary-items .btn-checkout {
+.payment-summary .btn-checkout {
     padding: 14px 40px;
     width: 100%;
     cursor: pointer;

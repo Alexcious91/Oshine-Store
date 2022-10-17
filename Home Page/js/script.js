@@ -8,12 +8,14 @@ btn.addEventListener("click", function() {
 });
 
 function myFunc() {
-    document.getElementById("btnCart").innerHTML += count;
+    document.getElementById("btnCart").innerHTML = parseInt(count);
 }
 // count section end
 
-// ****************************************
+// ******************************************
 
+
+// Navigation Starts
 // Open Navigation
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -22,6 +24,13 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+// Navigation End
+
+
+
+
+
+
 
 
 

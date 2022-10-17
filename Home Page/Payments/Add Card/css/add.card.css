@@ -23,15 +23,61 @@ a {
     text-decoration: none;
 }
 
-.breadcrump-container {
-    align-items: left;
+.c-process {
+    margin-left: 30%;
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.c-process .active {
+    color: #333;
+    font-weight: 700;
+}
+
+.c-process h2 {
+    color: #767676;
+}
+
+.c-process span {
+    font-size: 16px;
+    color: #767676;
+    display: inline-block;
+    gap: 14px;
+}
+
+.c-process a {
+    font-size: 16px;
+    color: #767676;
+    display: inline-block;
+    gap: 14px;
+}
+
+.c-process ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+
+.c-process ul li+li:before {
+    padding: 10px;
+    color:#7D8597;
+    font-weight: 400;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    display: flex;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-align: center;
@@ -43,6 +89,11 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     font-family: 'Raleway';
+}
+
+.card-info {
+    display: flex;
+    padding-left: 12%;
 }
 
 .payment-title {
@@ -96,6 +147,7 @@ body {
 label {
     padding-bottom: 5px;
     font-size: 13px;
+    font-family: sans-serif;
 }
 
 input {

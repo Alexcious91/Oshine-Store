@@ -209,6 +209,27 @@ a {
     width: 30%;
 }
 
+.product-img .badge-yeti {
+    background: #89bc26;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 59px;
+}
+
+.yeti-special h3 {
+    text-decoration: line-through;
+}
+
+.yeti-special h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+    color: #0b79bf;
+    padding-top: 2px;
+    padding-left: 12px;
+}
+
 .product-info .color-container {
     display: flex;
     align-items: center;
@@ -258,7 +279,7 @@ a {
 }
 
 .product-container .product-content {
-    width: 40%;
+    width: 52%;
     padding-left: 45px;
 }
 
@@ -275,9 +296,26 @@ a {
 .product-content .product-price {
     font-size: 30px;
     color: #333;
+    display: flex;
+    align-items: center;
     margin-top: -20px;
     margin-bottom: -20px;
     font-weight: 700;
+}
+
+.product-content .add-to-cart {
+    padding: 16px 16px;
+    background: #0b79bf;
+    width: 15%;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.product-content .add-to-cart:hover {
+    background: #777777;
+    transition: 0.3s;
 }
 
 .product-quantity-selector {
@@ -298,19 +336,26 @@ a {
     color: #0b79bf;
 }
 
-.product-quantity-selector input {
-    text-align: center;
-    width: 40px;
-    border: none;
-    background: transparent;
-    font-size: 18px;
-}
 
 .product-quantity-selector .btn-add {
     padding: 14px 16px;
     border: none;
     font-size: 25px;
     color: #0b79bf;
+}
+
+.product-quantity-selector button {
+    cursor: pointer;
+    animation-delay: 0.3s;
+    animation-duration: 2s;
+}
+
+.product-quantity-selector input {
+    text-align: center;
+    width: 40px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
 }
 
 /* Accordion styles */

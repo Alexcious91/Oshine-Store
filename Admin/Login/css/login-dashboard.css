@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ddd;
+}
+
+.topnav {
+    width: 100%;
+    background: #0a2342;
+    top: 0;
+    margin: 0;
+    display: flex;
+}
+
+.topnav h3 {
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #0b79bf;
+    font-weight: 500;
+    margin: 0;
+}
+
+.login-container{
+    padding-left: 185px;
+    padding-top: 60px;
+    width: 67%;
+}
+
+.form-container {
+    background: 0 0;
+    margin: 20px auto 0;
+    float: none;
+    width: 100%;
+}
+
+.login-container .login-form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    box-sizing: border-box;
+    float: none;
+    padding: 2.5rem;
+}
+
+.login-form h2 {
+    font-size: 16px;
+    display: inline-block;
+    color: #51534A !important;
+    font-weight: 500 !important;
+    font-size: 38px !important;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.login-form .form-input {
+    padding: 6px 8px;
+    border: 1px solid #bdbdbd !important;
+    height: 18px;
+    width: 220px;
+}
+
+.login-form .checkbox-container {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.login-form .checkbox {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    align-items: center;
+    cursor: pointer;
+} 
+
+.checkbox-container label {
+    font-size: 13px;
+
+}
+
+.btn-signin {
+    padding: 10px 20px;
+    width: 120px;
+    border-radius: 4px;
+    background: #0b79bf;
+    border: none;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form-container .card-footer {
+    background: #fff;
+    width: 568px;
+    border: 1px solid #ddd;
+    margin-left: 136px;
+    padding: 10px 16px;
+}
+
+.card-footer span {
+    font-size: 13px;
+    color: #888787;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
